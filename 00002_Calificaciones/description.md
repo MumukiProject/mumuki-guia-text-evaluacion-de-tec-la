@@ -1,0 +1,1 @@
+> Calificá del 0 al 10 las siguientes variables siendo 0 _pésimo_ y 10 _excelente_.

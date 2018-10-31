@@ -1,0 +1,68 @@
+<div class="form-horizontal">
+  <div class="slidecontainer">
+    <h5>Reconozco que la habilidad pensamiento computacional se puede trabajar desde cualquier asignatura.</h5>
+    <input type="range" min="0" max="10" value="0" step="1" class="slider" id="reconocimiento_de_pc">
+  </div>
+  <div class="slidecontainer">
+    <h5>La formación me ofreció un espacio para practicar y consolidar las distintas etapas que componen la habilidad pensamiento computacional.</h5>
+    <input type="range" min="0" max="10" value="0" step="1" class="slider" id="espacio_de_la_formacion">
+  </div>
+  <div class="slidecontainer">
+    <h5>Considero relevantes y útiles las herramientas tecnológicas educativas propias del mundo de la programación vistas en el transcurso de la formación.</h5>
+    <input type="range" min="0" max="10" value="0" step="1" class="slider" id="relevancia_utilidad">
+  </div>
+  <div class="slidecontainer">
+    <h5>Recomendaría a mis colegas esta formación.</h5>
+    <input type="range" min="0" max="10" value="0" step="1" class="slider" id="recomendacion">
+  </div>
+  <div class="slidecontainer">
+    <h5>Considero que estoy list@ para ejecutar la experiencia formativa que diseñé sobre pensamiento computacional.</h5>
+    <input type="range" min="0" max="10" value="0" step="1" class="slider" id="preparacion">
+  </div>
+</div>
+
+<style>
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+    border-radius: 25px;
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;  /* Override default CSS styles */
+    appearance: none;
+    border-radius: 5px;
+    width: 100%; /* Full-width */
+    height: 15px; /* Specified height */
+    background: #d3d3d3; /* Grey background */
+    outline: none; /* Remove outline */
+    opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+    -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */ 
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #ff8385; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    border-radius: 25px;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #4CAF50; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+    
+}
+
+</style>
