@@ -1,1 +1,1 @@
-Por último queremos que respondas un pequeño formulario de evaluación sobre TEC.LA :clipboard:.
+Queremos que respondas un pequeño formulario de evaluación sobre TEC.LA :clipboard:.
