@@ -1,1 +1,1 @@
-> Respondé las siguientes preguntas.
+> Respondé la siguiente pregunta.
